@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuikNote App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Left Panel for Notes List -->
+        <div id="left-panel">
+            <h1>Quik<span style="color: blueviolet;">Note</span></h1>
+            <div id="list-header">
+                <div id="addNoteDiv" onclick="showCreateNoteForm()">
+                    + New Note
+                </div>
+            </div>
+            <div id="list-container">
+                <ul id="notes-list"></ul>
+            </div>
+        </div>
+
+        <!-- Right Panel for Create/View/Edit Note -->
+        <div id="right-panel">
+            <div id="note-form-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
